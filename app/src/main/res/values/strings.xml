@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirebaseAndroidAuth</string>
+    <string name="verificar_por_correo">Verificar por Correo</string>
+    <string name="verificar_por_google">Verificar por Google</string>
+    <string name="verificar_por_phone_number">Verificar por Phone Number</string>
+    <string name="salir">Salir</string>
+    <string name="main_menu">Menu Principal</string>
+    <string name="titulo_email">Verificar por Correo</string>
+    <string name="titulo_google">Verificar por Google</string>
+    <string name="titulo_phone">Verificar por Numero de Telefono</string>
+    <string name="bienvenido_inicio_por_correo">Bienvenido Inicio por Correo</string>
+    <string name="bienvenido_inicio_por_google">Bienvenido Inicio por Google</string>
+    <string name="panel_email">Panel del Inicio por Correo</string>
+    <string name="sign_out_button">Sign Out</string>
+    <string name="panel_correo">Bienvenidos al Panel de Correo</string>
+    <string name="panel_google">Bienvenidos al Panel de Google</string>
+</resources>
