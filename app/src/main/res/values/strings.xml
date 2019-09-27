@@ -10,8 +10,14 @@
     <string name="titulo_phone">Verificar por Numero de Telefono</string>
     <string name="bienvenido_inicio_por_correo">Bienvenido Inicio por Correo</string>
     <string name="bienvenido_inicio_por_google">Bienvenido Inicio por Google</string>
+    <string name="bienvenido_inicio_por_phone">Bienvenido Inicio por Phone Number</string>
     <string name="panel_email">Panel del Inicio por Correo</string>
     <string name="sign_out_button">Sign Out</string>
     <string name="panel_correo">Bienvenidos al Panel de Correo</string>
     <string name="panel_google">Bienvenidos al Panel de Google</string>
+    <string name="write_phone_number_here">Write phone number here</string>
+    <string name="write_verification_code_here">Write verification code here</string>
+    <string name="send_verification_code">Send Verification Code</string>
+    <string name="verify">Verify</string>
+    <string name="bienvenido_por_verficacion_de_telefono">Bienvenido por Verficacion de Telefono</string>
 </resources>
