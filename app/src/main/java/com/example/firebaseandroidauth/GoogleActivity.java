@@ -53,7 +53,7 @@ public class GoogleActivity extends AppCompatActivity implements GoogleApiClient
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_google);
-        this.setTitle(R.string.bienvenido_inicio_por_google);
+        this.setTitle(R.string.bienvenido_inicio_por_google);//Titulo del 
 
         firebaseAuth = FirebaseAuth.getInstance();
 
