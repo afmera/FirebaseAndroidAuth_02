@@ -11,16 +11,17 @@ import com.example.firebaseandroidauth.vector.Lista;
 import java.util.List;
 
 public class MenuPrincipalActivity extends AppCompatActivity {
-
+    //Genero un Objeto de la Layout.
     TextView textView_NombreUsuario;
+    //Genero una lista local de l clase determinda.
     List<Persona>lista;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
-        getSupportActionBar().setTitle("Bienvenidos al Menu Principal");
-
-lista= Lista.lista_persona;
+        getSupportActionBar().setTitle("Bienvenidos al Menu Principal");//titulo del Layout
+        //Asigno la lista a la lista loscal.
+        lista= Lista.lista_persona;
         textView_NombreUsuario=(TextView)findViewById(R.id.NombreUsuarioTextView);
         textView_NombreUsuario.setText(lista.get(0).getNombreCompleto());
     }
