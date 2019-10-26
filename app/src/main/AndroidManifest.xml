@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Phone_PanelActivity"></activity>
+        <activity android:name=".MenuPrincipalActivity"></activity>
+        <activity android:name=".Phone_PanelActivity" />
         <activity android:name=".Google_PanelActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".Email_PanelActivity" />

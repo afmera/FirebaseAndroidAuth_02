@@ -143,7 +143,8 @@ public class GoogleActivity extends AppCompatActivity implements GoogleApiClient
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     //verifico la respueta si exite la cuenta de google
                     if (task.isSuccessful()) {//si pasa inicio sesion
-                        startActivity(new Intent(getApplicationContext(), Google_PanelActivity.class));
+                        //startActivity(new Intent(getApplicationContext(), Google_PanelActivity.class));
+                        startActivity(new Intent(getApplicationContext(), MenuPrincipalActivity.class));
                         Toast.makeText(GoogleActivity.this, "Inicio de Sesion", Toast.LENGTH_SHORT).show();
                     } else {//si no
                         //Creo una cuenta
@@ -152,7 +153,8 @@ public class GoogleActivity extends AppCompatActivity implements GoogleApiClient
                                     @Override
                                     public void onComplete(@NonNull Task<AuthResult> task) {
                                         if (task.isSuccessful()) {
-                                            startActivity(new Intent(getApplicationContext(), Google_PanelActivity.class));
+                                            //startActivity(new Intent(getApplicationContext(), Google_PanelActivity.class));
+                                            startActivity(new Intent(getApplicationContext(), MenuPrincipalActivity.class));
                                             Toast.makeText(GoogleActivity.this, "Registrations Complete", Toast.LENGTH_SHORT).show();
                                         } else {
                                             Toast.makeText(GoogleActivity.this, "Authentication Failed", Toast.LENGTH_SHORT).show();
